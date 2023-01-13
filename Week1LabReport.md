@@ -7,5 +7,6 @@ Remotely Connecting
 Trying Some Commands
 
 
-![Image][1]
+![Screenshot1](https://user-images.githubusercontent.com/122498397/212212561-e6c64a37-35b2-46f0-b615-c6d7098efc22.jpg)
+
 
