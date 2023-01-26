@@ -22,15 +22,15 @@
 ![Screenshot4](https://user-images.githubusercontent.com/122498397/212271989-d64a7ad8-d5ab-4972-945b-e95caa5c4970.jpg)
 
    - I entered my current password for my UCSD account and my new password (which must fit the guidelines to work) in their corresponding boxes. I also changed the dropdown option for the question "Change MyTritonLink password?" from Yes (the defualt) to No, preventing my UCSD global account from changing, and instead just my course-specific account. (NOTE: this is where I ran into a problem. Even though I didn't click "Check password" and did what the tutorial said, it still kept saying that my password didn't follow the guidelines. Eventually, I ended up copying and pasting a randomly generated password suggested by Google and pressed "Check Password", which finally ended up working and my password for my course account was changed.)
-   - After waiting for a few minutes, I opened up VS code and entered 'ssh ACCOUNT_NAME@ieng6.ucsd.edu' into my terminal ('ACCOUNT_NAME' being my username).
+   - After waiting for a few minutes, I opened up VS code and entered `ssh ACCOUNT_NAME@ieng6.ucsd.edu` into my terminal (`ACCOUNT_NAME` being my username).
    - I then entered my newly changed password for my account into the terminal. A message talking about "The authenticity of host 'ieng6.ucsd.edu" appeared, since it was my first time  connecting to the server, to which I entered yes as a response.
    - A message with my username appeared, indicating that I was logged into ieng6-202@ucsd.edu, along with a bunch of other information, such as the % CPU used on this system, Cluster status, and time and date of logging in.
 
 ![Screenshot2](https://user-images.githubusercontent.com/122498397/212212940-ddbc4098-235f-4bc8-bae1-6e77c7fbd6bd.jpg)
 
 # Step 3: Trying Some Commands.
-  - After I was logged in, I tried running some commands in the terminal, such as 'cd ~', 'cd', 'ls -lat', 'ls -a', and 'ls /home/linux/ieng6/cs15lwi23/ACCOUNT_USERNAME'. They came up with some interesting results.
-  - I also tried running the commands 'cp /home/linux/ieng6/cs15lwi23/public/hello.txt ~/' and 'cat /home/linux/ieng6/cs15lwi23/public/hello.txt', however, since the file hello.txt didn't exist, I kept getting errors.
+  - After I was logged in, I tried running some commands in the terminal, such as `cd ~`, `cd`, `ls -lat`, `ls -a`, and `ls /home/linux/ieng6/cs15lwi23/ACCOUNT_USERNAME`. They came up with some interesting results.
+  - I also tried running the commands `cp /home/linux/ieng6/cs15lwi23/public/hello.txt ~/` and `cat /home/linux/ieng6/cs15lwi23/public/hello.txt`, however, since the file hello.txt didn't exist, I kept getting errors.
   - I was pretty confused by what some of the commands did and the results that popped up because of those commands, so hopefully I will learn more about them later on in this course.
 
 ![Screenshot3](https://user-images.githubusercontent.com/122498397/212213007-2f18722b-32b5-445e-911e-d0c1540dba5f.jpg)
