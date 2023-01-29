@@ -59,7 +59,7 @@ int[] input1 = { 3 };
 
 ## The symptom:
 
-??????
+Why am I getting an error when I try to compile the tests??????
 
 ## The bug:
 
