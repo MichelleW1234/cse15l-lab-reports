@@ -87,37 +87,4 @@ After finding out that the method was trying to go through the array and switchi
 
 # Part 3:
 
-In this past week, I learned a lot about debugging. Although I've obviously had to start learning to debug ever since I started coding, I never knew about the tests that I could myself to check different methods in a file. 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+In this past week, I learned a lot about debugging. Although I've obviously had to start learning to debug ever since I started coding, I never knew about the tests that I myself could code to check to see if different methods in a file are running properly. With this, I also learned about the different methods that are used, such as `assertEquals()`, which are used for these tests.
