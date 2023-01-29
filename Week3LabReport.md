@@ -45,14 +45,14 @@ To get the desired result (having the message after the `=` link to be printed),
 
 ## A failure-inducing input:
 
-# code block
+### code block
 int[] input2 = {3, 5, 10, 15, 20};
     ArrayExamples.reverseInPlace(input2);
     assertArrayEquals(new int[]{20, 15, 10, 5, 3}, input2);
 
 ## An input that doesn’t induce a failure:
 
-# code block
+### code block
 int[] input1 = { 3 };
     ArrayExamples.reverseInPlace(input1);
     assertArrayEquals(new int[]{ 3 }, input1);
@@ -65,7 +65,7 @@ int[] input1 = { 3 };
 
 ### Before:
 
-# code block
+#### code block
 static void reverseInPlace(int[] arr) {
     for(int i = 0; i < arr.length; i += 1) {
       arr[i] = arr[arr.length - i - 1];
@@ -74,7 +74,7 @@ static void reverseInPlace(int[] arr) {
 
 ### After:
 
-# code block
+#### code block
 static void reverseInPlace(int[] arr) {
     for(int i = 0; i < arr.length/2; i += 1) {
       int originalElement = arr[i];
