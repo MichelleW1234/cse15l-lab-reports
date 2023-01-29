@@ -1,5 +1,5 @@
-#Part 1
-##Code:
+# Part 1
+## Code:
 
 ![code1](https://user-images.githubusercontent.com/122498397/215352492-ebf3ec93-878b-4fb9-b039-fde7fcf3302e.jpg)
 
@@ -9,7 +9,7 @@
 
 ![code4](https://user-images.githubusercontent.com/122498397/215352604-3c9ad3e0-33db-40d4-ad22-315bb0d60a1c.jpg)
 
-##Results from using `/add-message`:
+## Results from using `/add-message`:
 
 ![image1](https://user-images.githubusercontent.com/122498397/215352624-de3e78cb-3705-413b-a60a-0696d54dd5d0.jpg)
 
