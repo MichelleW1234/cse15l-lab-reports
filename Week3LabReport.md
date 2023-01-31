@@ -31,14 +31,6 @@ To get the desired result (having the message after the `=` link to be printed),
 
 # Part 2:
 
-/**
--A failure-inducing input for the buggy program, as a JUnit test and any associated code (write it as a code block in Markdown)
--An input that doesn’t induce a failure, as a JUnit test and any associated code (write it as a code block in Markdown)
--The symptom, as the output of running the tests (provide it as a screenshot of running JUnit with at least the two inputs above)
--The bug, as the before-and-after code change required to fix it (as two code blocks in Markdown)
--Briefly describe why the fix addresses the issue.
-**/
-
 ## A buggy program in ArrayExamples.java:
 
 ![Image 1-29-23 at 2 06 PM](https://user-images.githubusercontent.com/122498397/215358237-a0961448-64cd-4df9-9030-5e7c51e43a2f.jpg)
@@ -83,7 +75,7 @@ static void reverseInPlace(int[] arr) {
     }
 }
 
-After finding out that the method was trying to go through the array and switching the elements from both ends of the array until it got to the center, I realized that, while the first element was being changed to the last element, the last element wasn’t being changed to the first element. Therefore, I had to write the code inside of the for loop that would save the  element at i (the first element), and then, after the first element was changed, would change the last element to the first element as well. I also had to divide arr.length by 2, since, if the switching is supposed to stop when it reaches the middle of the array, this means that the number of iterations would only be half of the length of the list rather than the entire length. 
+After finding out that the method was trying to go through the array and switching the elements from both ends of the array until it got to the center, I realized that, while the first element was being changed to the last element, the last element wasn’t being changed to the first element. Therefore, I had to write the code inside of the for loop that would save the  element at i (the first element), and then, after the first element was changed, would change the last element to the first element as well. I also had to divide `arr.length` by 2, since, if the switching is supposed to stop when it reaches the middle of the array, this means that the number of iterations would only be half of the length of the list rather than the entire length. 
 
 # Part 3:
 
