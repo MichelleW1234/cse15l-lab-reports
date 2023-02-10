@@ -1,7 +1,7 @@
 # Part 1:
 ## Code:
 
-![code1](https://user-images.githubusercontent.com/122498397/215352492-ebf3ec93-878b-4fb9-b039-fde7fcf3302e.jpg)
+![Image 2-10-23 at 2 19 PM](https://user-images.githubusercontent.com/122498397/218209769-cbf77415-c6b0-44e6-8311-c47af3249526.jpg)
 ![code2](https://user-images.githubusercontent.com/122498397/215352594-d8fe2be7-2425-4ae5-9284-ff76c5a15de6.jpg)
 
 ![code3](https://user-images.githubusercontent.com/122498397/215352600-42485359-22dd-43b9-98ba-3142bb9cd379.jpg)
@@ -11,7 +11,7 @@
 
 ### `Hello`:
 
-![image1](https://user-images.githubusercontent.com/122498397/215352624-de3e78cb-3705-413b-a60a-0696d54dd5d0.jpg)
+![Image 2-10-23 at 2 17 PM](https://user-images.githubusercontent.com/122498397/218209670-9b63071a-dd80-412a-b4ef-1ac949cf3619.jpg)
 
 To come up with the result above, all of the methods from both `StringServer.java`, the file that contains both main() and handleRequest() (the method that ultimately figures out what to do with the `/add-message` request in the path), and `theServer.java`, the black box file, are called, as they all call eachother in order to print out the resulting link to the page in the terminal. There are also methods from Java's built in classes, such as the `HttpServer` class, that are called in `theServer.java`. 
 
@@ -21,7 +21,7 @@ To get the desired result (having the message after the `=` link to be printed),
 
 ### `How are you`:
 
-![image2](https://user-images.githubusercontent.com/122498397/215352628-da07622d-18df-4b3c-8876-9bb3c8bef221.jpg)
+![Image 2-10-23 at 10 36 AM](https://user-images.githubusercontent.com/122498397/218209736-912291c0-6e23-444e-9f50-17ba5fc9aaef.jpg)
 
 To come up with the result above, all of the methods from both `StringServer.java`, the file that contains both main() and handleRequest() (the method that ultimately figures out what to do with the `/add-message` request in the path), and `theServer.java`, the black box file, are called, as they all call eachother in order to print out the resulting link to the page in the terminal. There are also methods from Java's built in classes, such as the `HttpServer` class, that are called in `theServer.java`. 
 
