@@ -37,17 +37,19 @@ To get the desired result (having the message after the `=` link to be printed),
 
 ## A failure-inducing input:
 
-### code block
+```
 int[] input2 = {3, 5, 10, 15, 20};
     ArrayExamples.reverseInPlace(input2);
     assertArrayEquals(new int[]{20, 15, 10, 5, 3}, input2);
+```
 
 ## An input that doesn’t induce a failure:
 
-### code block
+```
 int[] input1 = { 3 };
     ArrayExamples.reverseInPlace(input1);
     assertArrayEquals(new int[]{ 3 }, input1);
+```
 
 ## The symptom:
 
@@ -57,23 +59,25 @@ int[] input1 = { 3 };
 
 ### Before:
 
-#### code block
+```
 static void reverseInPlace(int[] arr) {
     for(int i = 0; i < arr.length; i += 1) {
       arr[i] = arr[arr.length - i - 1];
     }
 }
+```
 
 ### After:
 
-#### code block
+```
 static void reverseInPlace(int[] arr) {
-        for(int i = 0; i < arr.length/2; i += 1) {
-                int originalElement = arr[i];
-                arr[i] = arr[arr.length - i - 1];
-                arr[arr.length - i - 1] = originalElement;
-        }
+    for(int i = 0; i < arr.length/2; i += 1) {
+        int originalElement = arr[i];
+        arr[i] = arr[arr.length - i - 1];
+        arr[arr.length - i - 1] = originalElement;
+    }
 }
+```
 
 After finding out that the method was trying to go through the array and switching the elements from both ends of the array until it got to the center, I realized that, while the first element was being changed to the last element, the last element wasn’t being changed to the first element. Therefore, I had to write the code inside of the for loop that would save the  element at `i` (the first element), and then, after the first element was changed, would change the last element to the first element as well. I also had to divide `arr.length` by 2, since, if the switching is supposed to stop when it reaches the middle of the array, this means that the number of iterations would only be half of the length of the list rather than the entire length. 
 
