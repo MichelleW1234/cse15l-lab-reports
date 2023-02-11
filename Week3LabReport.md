@@ -39,16 +39,16 @@ To get the desired result (having the message after the `=` link to be printed),
 
 ```
 int[] input2 = {3, 5, 10, 15, 20};
-    ArrayExamples.reverseInPlace(input2);
-    assertArrayEquals(new int[]{20, 15, 10, 5, 3}, input2);
+ArrayExamples.reverseInPlace(input2);
+assertArrayEquals(new int[]{20, 15, 10, 5, 3}, input2);
 ```
 
 ## An input that doesn’t induce a failure:
 
 ```
 int[] input1 = { 3 };
-    ArrayExamples.reverseInPlace(input1);
-    assertArrayEquals(new int[]{ 3 }, input1);
+ArrayExamples.reverseInPlace(input1);
+assertArrayEquals(new int[]{ 3 }, input1);
 ```
 
 ## The symptom:
