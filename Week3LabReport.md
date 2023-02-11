@@ -68,11 +68,11 @@ static void reverseInPlace(int[] arr) {
 
 #### code block
 static void reverseInPlace(int[] arr) {
-    for(int i = 0; i < arr.length/2; i += 1) {
-      int originalElement = arr[i];
-      arr[i] = arr[arr.length - i - 1];
-      arr[arr.length - i - 1] = originalElement;
-    }
+        for(int i = 0; i < arr.length/2; i += 1) {
+                int originalElement = arr[i];
+                arr[i] = arr[arr.length - i - 1];
+                arr[arr.length - i - 1] = originalElement;
+        }
 }
 
 After finding out that the method was trying to go through the array and switching the elements from both ends of the array until it got to the center, I realized that, while the first element was being changed to the last element, the last element wasn’t being changed to the first element. Therefore, I had to write the code inside of the for loop that would save the  element at `i` (the first element), and then, after the first element was changed, would change the last element to the first element as well. I also had to divide `arr.length` by 2, since, if the switching is supposed to stop when it reaches the middle of the array, this means that the number of iterations would only be half of the length of the list rather than the entire length. 
