@@ -11,15 +11,9 @@ Print only the matched parts of a matching line, with each such part on a separa
 
 ### example of `grep -o`:
 grep -o "unix" geekfile.txt
-#### command:
-
-#### output:
 
 ### example of `grep -o`:
 grep -o "unix" geekfile.txt
-#### command:
-
-#### output:
 
 ### source:
 https://www.geeksforgeeks.org/grep-command-in-unixlinux/
@@ -29,15 +23,9 @@ This prints out all the lines that do not matches the pattern
 
 ### example of `grep -v`:
 grep -v "unix" geekfile.txt
-#### command:
-
-#### output:
 
 ### example of `grep -v`:
 grep -v "unix" geekfile.txt
-#### command:
-
-#### output:
 
 ### source:
 https://www.geeksforgeeks.org/grep-command-in-unixlinux/
@@ -47,15 +35,9 @@ Ignores, case for matching
 
 ### example of `grep -i`:
 grep -i "UNix" geekfile.txt
-#### command:
-
-#### output:
 
 ### example of `grep -i`:
 grep -i "UNix" geekfile.txt
-#### command:
-
-#### output:
 
 ### source:
 https://www.geeksforgeeks.org/grep-command-in-unixlinux/
@@ -65,15 +47,9 @@ Display the matched lines and their line numbers.
 
 ### example of `grep -n`:
 grep -n "unix" geekfile.txt
-#### command:
-
-#### output:
 
 ### example of `grep -n`:
 grep -n "unix" geekfile.txt
-#### command:
-
-#### output:
 
 ### source:
 https://www.geeksforgeeks.org/grep-command-in-unixlinux/
