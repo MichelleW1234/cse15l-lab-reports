@@ -1,7 +1,6 @@
 ## directions:
 Online, find 4 interesting command-line options or alternate ways to use the command you chose. 
-For example, we saw the -name option for find in class. For each of those options, 
-give 2 examples of using it on files and directories from ./written_2. 
+For each of those options, give 2 examples of using it on files and directories from ./written_2. 
 Show each example as a code block that shows the command and its output, and write a sentence or two about what it’s doing and why it’s useful.
 Along with each option/mode you show, cite your source for how you found out about it as a URL or a description of where you found it.
 
@@ -22,6 +21,9 @@ grep -o "unix" geekfile.txt
 
 #### output:
 
+### source:
+https://www.geeksforgeeks.org/grep-command-in-unixlinux/
+
 ## `-v`:
 This prints out all the lines that do not matches the pattern
 
@@ -36,6 +38,9 @@ grep -v "unix" geekfile.txt
 #### command:
 
 #### output:
+
+### source:
+https://www.geeksforgeeks.org/grep-command-in-unixlinux/
 
 ## `-i`:
 Ignores, case for matching
@@ -52,6 +57,9 @@ grep -i "UNix" geekfile.txt
 
 #### output:
 
+### source:
+https://www.geeksforgeeks.org/grep-command-in-unixlinux/
+
 ## `-n`:
 Display the matched lines and their line numbers.
 
@@ -67,5 +75,6 @@ grep -n "unix" geekfile.txt
 
 #### output:
 
+### source:
+https://www.geeksforgeeks.org/grep-command-in-unixlinux/
 
-    
