@@ -6,7 +6,7 @@ Along with each option/mode you show, cite your source for how you found out abo
 
 # Command-line options for the `grep` Command:
 
-## `-o`: 
+## `grep -o`: 
 Print only the matched parts of a matching line, with each such part on a separate output line.
 
 ### example of `grep -o`:
@@ -24,7 +24,7 @@ grep -o "unix" geekfile.txt
 ### source:
 https://www.geeksforgeeks.org/grep-command-in-unixlinux/
 
-## `-v`:
+## `grep -v`:
 This prints out all the lines that do not matches the pattern
 
 ### example of `grep -v`:
@@ -42,7 +42,7 @@ grep -v "unix" geekfile.txt
 ### source:
 https://www.geeksforgeeks.org/grep-command-in-unixlinux/
 
-## `-i`:
+## `grep -i`:
 Ignores, case for matching
 
 ### example of `grep -i`:
@@ -60,7 +60,7 @@ grep -i "UNix" geekfile.txt
 ### source:
 https://www.geeksforgeeks.org/grep-command-in-unixlinux/
 
-## `-n`:
+## `grep -n`:
 Display the matched lines and their line numbers.
 
 ### example of `grep -n`:
