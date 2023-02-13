@@ -1,55 +1,165 @@
-## directions:
-Online, find 4 interesting command-line options or alternate ways to use the command you chose. 
-For each of those options, give 2 examples of using it on files and directories from ./written_2. 
-Show each example as a code block that shows the command and its output, and write a sentence or two about what it’s doing and why it’s useful.
-Along with each option/mode you show, cite your source for how you found out about it as a URL or a description of where you found it.
-
 # Command-line options for the `grep` Command:
 
 ## `grep -o`: 
-Print only the matched parts of a matching line, with each such part on a separate output line.
 
 ### example of `grep -o`:
-grep -o "unix" geekfile.txt
+```
+grep -o "here" Algarve-History.txt 
+here
+here
+here
+here
+here
+```
+
+#### explanation:
+In this particular situation, this command searches through the Algarve-History.txt file and prints out "here" on a seperate output line every time a line in its contents matches with the pattern of containing "here". This command could be helpful in figuring out how many times a specific pattern is used in a particular way (lowercase, uppercase, etc) in a file.
 
 ### example of `grep -o`:
-grep -o "unix" geekfile.txt
+```
+grep -o "this" Athens-Intro.txt
+this
+this
+this
+```
+
+#### explanation:
+In this particular situation, this command searches through the Algarve-History.txt file and prints out "this" on a seperate output line every time a line in its contents matches with the pattern of containing "this". This command could be helpful in figuring out how many times a specific pattern is used in a particular way (lowercase, uppercase, etc) in a file.
 
 ### source:
 https://www.geeksforgeeks.org/grep-command-in-unixlinux/
 
 ## `grep -v`:
-This prints out all the lines that do not matches the pattern
 
 ### example of `grep -v`:
-grep -v "unix" geekfile.txt
+```
+grep -v "here" Algarve-History.txt
+
+
+
+
+A Brief History
+But it was the Romans, who arrived late in the third century b.c., who most greatly influenced all of Iberia. They built towns, industries, roads, and bridges, developed agriculture, and bequeathed the Latin language, of which Portuguese is a direct descendant. The Romans named the southwestern province of the peninsula Lusitania, oddly enough for one of the Celtiberian tribes they defeated, and by the third century a.d. had introduced Christianity. By the beginning of the fourth century the Algarve had a bishop in place, based in Faro. But Rome had already fallen into decay, and soon hordes of northern tribesmen took over the empire. The Algarve fell to the Visigoths in the mid-fifth century.
+Under Moorish Rule
+In a.d. 711, the Moors brought powerful armies from North Africa and launched a devastating attack on the Iberian peninsula, conquering much of what would become Spain and Portugal. They imposed Islam and left an indelible influence on the countryside and the population of the Algarve. The Moorish legacy can still be seen in the form of wells and waterwheels, squat white houses, the dark complexions of the people, and in the very name given the region — taken from Al-Gharb, which means “country of the west” (when the Moors conquered the territory, it was the most westerly in the known world).
+The Moors governed their Iberian kingdoms from across the border in Seville, but the Algarve had its own regional capital and huge, invulnerable fortress. The capital was Chelb (or Xelb), and it was bigger and better defended than Lisbon. Today the town, known as Silves, (see page 38) is a provincial outpost whose only besiegers are busloads of tourists who climb the narrow streets up to the old Moorish ramparts.
+The long struggle by Christians to expel the Moors (a campaign known as the Reconquista, or Reconquest) began towards the end of the eighth century a.d. By the 11th century, Portucale consisted of a small section of Castile and León (today’s northern Portugal). Yet it wasn’t until the 12th century that significant gains were made to take back southern Iberia. The beginning of the end came in the Battle of Ourique in 1139. After the victory, Count Afonso Henriques proclaimed himself the first king of Portugal, making it one of the first nation-states in Europe.
+The Reconquest of Silves, not achieved for another 50 years, was a grisly affair. A mixed bag of Crusaders from northern Europe were recruited en route to their battles east in the Holy Land. They sailed upon the river port of Silves and, ignoring conditional offers of surrender, slew all the inhabitants (at no small loss to themselves) and pillaged the great treasures of the city.
+Two years later Muslim forces rallied again, retaking Silves, and the Reconquista stumbled on for another half century. So many inter-religious alliances reigned, and so pervasive was the intermingling of Moors and Christians, that it was hard to tell who was on which side and for which piece of land they were fighting. On top of that, the situation was further clouded by a feud between Portugal and Spain, each of them claiming sovereignty over the Algarve. However, by 1249 Faro and the western Algarve were retaken under King Afonso III, completing the Reconquest. The possibility of war with Spain was averted by an expeditious royal marriage, and by the end of the century a treaty with Spain drew up the boundaries of Portugal that stand today.
+The Algarve was a region regarded separately within the new Portugal, as is evidenced by the royal title “Kingdom of Portugal and the Algarve.” In those days, the notion of the Algarve as a distinct entity did make some sense: like an island, it was cut off to the south and west by the Atlantic, to the east by the Guadiana River, and to the north by the mountains. The region’s titular autonomy was upheld until 1910, when the monarchy itself was overthrown.
+The Navigator
+In 1415, long after the Reconquista was completed, a Portuguese fleet assembled on the River Tagus in Lisbon for an assault on the Moors in their homeland. Crossing the Straits of Gibraltar, the armada attacked and seized the North African city of Ceuta. An illustrious member of the famous raid was the young Prince Henry, half Portuguese and half English, the son of King João I and his wife, Philippa of Lancaster. Ceuta would be Henry’s one and only military victory, though he was destined to establish Portugal as a major world power, helping to develop important world trade routes by the time of his death in 1460.
+At the age of 21, Henry assembled a School of Navigation. It was certainly not a formal institution of lectures and classes, but probably resembled an informal modern-day “think-tank.” Prince Henry — made governor of the Algarve in 1418 — had the money, influence, enthusiasm, and vision to lead and cajole the best astronomers, cartographers, boat-designers, and seamen of the day to expand Portugal’s maritime horizons.
+During Henry’s lifetime, Portugal’s caravels sailed beyond the most westerly point of Africa. They colonized the Atlantic islands of Madeira and the Azores, laying the foundations for the future Portuguese empire. Before the century was over, Henry’s compatriots Bartolomeu Dias and Vasco da Gama completed epic voyages, rounding the Cape of Good Hope and reaching India, respectively, and Pedro Álves Cabral claimed Brazil. Between 1519 and 1522 another Portuguese explorer, Ferdinand Magellan, led the first expedition to circumnavigate the world. Mercantilist Portugal became a rich maritime superpower.
+Foreign Intrigues
+To protect its seagoing interests and trade routes, Portugal established strategic garrisons in Goa (India), Malacca (East Indies), and Hormuz in the Persian Gulf. Portuguese explorers then embarked upon Macau (now Macao), the Congo, and various other parts of Africa, including the Sudan. The Portuguese policy was to avoid armed strife and to develop a trade empire, rather than to conquer nations. To this end it succeeded with relatively few blood-soaked episodes in its colonial history.
+Adventures abroad, however, proved disastrous during the second half of the 16th century. In 1557 the 14-year-old boy-king Sebastião ascended the throne, the beginning of a calamitous reign that was to end at the battle of Alcacer-Quiber (Morocco) in pursuit of a vain crusade. Sebastião’s untimely demise, alongside some 18,000 ill-prepared, badly led followers, set the stage for a crisis of succession. For many years afterwards, legends and rumors bizarrely insisted that the king was still alive, and imposters turned up from time to time claiming the throne; those who were plausible enough to be deemed a threat were summarily executed.
+In fact, the only rightful claimant to the crown was the elderly Prince Henry. But after two years of alternating between the throne and his sickbed, he died, heirless. Surveying the situation and smelling an opportunity, Spain occupied the power vacuum, and Portugal’s neighbor and long-time antagonist became its master.
+Spanish rule dictated Portugal’s inadvertent involvement in Spain’s ongoing wars. In 1587 a squadron of British ships commanded by Francis Drake attacked the Algarve (now a “legitimate target” as Spanish territory) and sacked Sagres, thus depriving the world of the relics of Henry the Navigator. Nine years later Faro was torched. The 1386 Treaty of Windsor, by which Britain and Portugal had pledged eternal friendship, seemed a distant memory.
+Portugal’s empire was gradually eroded, and many of its trading posts (with the notable exception of Brazil) were picked off by the British and Dutch. Finally, after 60 years of Spanish rule, Portuguese noblemen (aided by the French, then at war with Spain) organized a palace coup and restored independence.
+The Great Disaster
+Portugal’s greatest misfortune struck on All Saint’s Day, 1 November 1755. With the candlelit churches crowded with worshippers, a monstrous earthquake struck, followed by fast-spreading fires and a devastating tidal wave that swept over the Algarve inland as far as 6.5 km (4 miles). The exact casualty figure will never be known, but it is estimated that 5,000 died immediately and between 40,000 and 60,000 perished as a result of secondary injuries and the ensuing famine and pestilence. The epicenter of the earthquake is thought to have been off the Algarve coast, possibly between Tavira and Faro, but it devastated places as far away as the capital, Lisbon. Witnesses claim to have seen a fiery volcano erupt from beneath the sea just before the first jolt.
+Throughout the Algarve and much of the rest of southern Portugal, virtually every important monument, cathedral, castle, and mansion was destroyed, or at least critically damaged in the earthquake. Among the hardest hit towns was Lagos (see page 26) which lost its castle, its churches, and the palace in which Henry the Navigator had once lived.
+Political Upheaval
+The beginning of the 19th century brought further alarm to the country. This time the epicenter was Paris, and the cause Napoleon. Just as Portugal’s forced alliance with Spain had made the country a target for Drake’s 16th-century raids, now her friendly alliance with England rankled Napoleon.
+In 1807 the French invaded Lisbon, causing the royal family to flee to Brazil. Spain, followed by Portugal, rose up against the French occupation, in what came to be known as the Peninsular War.
+Among the early blows struck for independence was a rebellion in the town of Olhão (see page 57). On 16 June 1808, the townsfolk — armed with little more than ancient swords, spears, and stones — attacked and captured the local French garrison. It’s said that a party of local men then set sail from Olhão all the way to Brazil, without maps or navigational aids, to tell the king of the insurrection. The real battle, however, was waged under the leadership of the Duke of Wellington, whose coalition forces expelled the French after two years of bitter fighting.
+The war left Portugal further weakened, and in 1822 its major empire outpost, Brazil, declared independence. At the same time, a dispute over the crown continually raged between Pedro IV, the absentee monarch who preferred to reign as Emperor of Brazil rather than return to Portugal, and his brother Miguel. The power struggle, with strong overtones of absolutism versus liberalism, excited the interest and intervention of other powers. With British help, Pedro defeated Miguel off Cape St. Vincent in 1833, and his expeditionary force marched to Lisbon. Pedro took the throne, though armed struggle continued for months and the lingering bitterness long after that.
+By 1892 Portugal, racked by wars and the continuing expense of maintaining its African colonies (including those of Mozambique and Angola), declared itself bankrupt. The seeds of discontent with absolutist rule were sown.
+Kingdom’s End
+Bloodshed would haunt the remaining years of the Portuguese monarchy. On 1 February 1908, the royal family was riding in an open carriage along the Lisbon river front plaza, Terreiro do Paço, when an assassin opened fire and killed King Carlos and the heir to the throne, Prince Luis Filipe. The prince’s younger brother, Prince Manuel, was also hit, but he survived and was thus propelled to the throne at the tender age of 19.
+Amid republican agitation, a surprise uprising led by elements within the armed forces deposed Manuel in 1910. Having ruled for less than three years, Manuel died in exile in 1932 in England.
+In 1968 the elderly Salazar was forced into retirement after a stroke. His successor, Dr. Marcelo Caetano, feeling the spirit of the age, began tentative relaxations of the old regime. The armed forces finally overthrew him in a popular bloodless coup, known as the “Carnation Revolution,” on 25 April 1974.
+Portugal finally began to pull itself out of the long and fruitless struggle against revolutionaries in its African colonies, and granted independence to the remaining members of its empire in 1975. This, too, caused major upheavals, and a million permanent refugees rushed the motherland, aggravating the shortage of housing and jobs.
+Although economic problems continued to beset the young democracy, the political scene was greatly stabilized. In 1986 Portugal, the former poor backwater of Europe, joined the European Economic Community (now the European Union, or EU).
+With aid from the EU, Portugal became one of the fastest-growing countries in Europe. The Algarve, already a favorite of sun-seeking beach lovers from England and Northern Europe, also benefited from EU funds to build up its infrastructure and to invest in tourism. In 1998 Portugal hosted the World Expo in Lisbon, and in 1999 further consolidated its European membership by accepting the gradual introduction of the Euro, the single currency also adopted by Spain, Italy, Germany, France, and others.
+```
+
+#### explanation:
+In this particular situation, this command searches through the Algarve-History.txt file and prints out all of the lines that do not match the pattern of containing "here". This command could be helpful in seeing how much of the file doesn't contain a specific pattern when it is used in a particular way (lowercase, uppercase, etc) in a file.
 
 ### example of `grep -v`:
-grep -v "unix" geekfile.txt
+```
+grep -v "this" Athens-Intro.txt
+
+
+
+
+Athens and
+The Athenians
+M ention the name Athens and almost everyone will have some preconceived ideas about the city. Socrates painted a picture with words in the fourth century b.c., Pausanais during the Roman era. In the 20th century, Hollywood added its own slant to the legends, and every school child learns about the gods of the ancient Greek world — of Zeus, Athena, and Apollo.
+The most important city in the world during its heyday in the fifth and fourth centuries b.c., the people of Athens were highly sophisticated in their thoughts and actions, their tastes and fashions. This small city set on and around a dramatic hill of rock — the Acropolis — became the cradle of western civilization. From the public meetings held here the concepts of citizenship, democracy, and debate developed. Through their regard for learning, history and science were first codified and organized. The Athenian love of leisure allowed the development of numerous pursuits such as theater — imagine a world without tragedy or comedy (without the ancient Athenians, the much-loved TV soap opera might never have been possible). They also admired sporting prowess, inaugurating the Olympic Games where the best in the world would compete together simply for the glory of winning. 
+Athenians left an enduring legacy of concepts and ideas for humankind but they also bequeathed a remarkable number of buildings and artifacts that tell us about their lives. The remains of the temples of the Acropolis are recognized worldwide and hundreds of statues, along with ordinary household pottery, jewelry, and tools hold a fascination for anyone who enjoys exploring the past.
+However, the city of Athens is more than a sum of these ancient parts. Though it disappeared from the record books following the decline of the Roman Empire in the fifth century — its lineage and magnificent monuments unappreciated — it has risen like a phoenix from the ashes since 1834, the year that it became capital of the modern country of Greece. 
+Grand buildings were erected to mark its re-birth. Though Neo-Classical design was fashionable everywhere in Europe in the mid-19th century, in Athens it echoed that of the original monuments of the ancient city — it was, in a sense, returning home. The elegant simplicity of the Parliament building, graceful façade of the University, and almost ‘Rococo-esque’ decoration on the Academy all hark back to ancient antecedents. Each was built with marble hewn from the Pentelic Hills just as those erected in Athens at the time of Socrates. 
+In the latter years of the 20th century very little was done to improve matters. The population grew but the infrastructure was not developed, resulting in gridlock of the urban traffic system, smog, and noise pollution. Today, at first glance nothing seems to have changed. A brown layer of pollution hangs over the city in both hot and cold weather; the seemingly endless hooting of horns down the wide boulevards and the drone of vehicles making painfully slow progress through the narrow streets raises noise levels; and in a city with so many apartments and so little parking it’s no surprise that sidewalks become places to leave your vehicle, and pedestrians must risk life and limb by walking on the roads. 
+Tradition still plays an important part in daily life here. The family forms the backbone of Greek society and filial ties are strong. Children play safely in the streets with grandma keeping a watchful eye. New babies are proudly shown to the world in the evening volta or stroll, when neighbors come to “bill and coo.” Families gather for a weekend meal, taking over a corner of a taverna to spend a couple of hours in noisy debate (some may say argument) while perhaps having a little food. Eating always takes second place to conversation at a Greek meal. Greek hospitality is warm and genuine — even small examples such as always being welcomed with a smile and shown to your seats at a taverna. Shopkeepers are skilled salesmen, but never pushy or overbearing. 
+The Orthodox Church — for so long the one thing that united the Hellenic Diaspora — still has a strong influence on the population. Everyone from suited businessmen to young soldiers on national service make a regular visit to Athens Cathedral or a small local church to light a candle. People stop in on the way home from work or in their lunch breaks; it’s such a normal part of everyday life here. The Greek language also unifies the congregation with the clergy and Greeks around the world, though its use gives the capital a decidedly exotic air as visitors struggle to make sense of these “foreign” letters. There’s also a sense of patriotism and national pride here even among the young — perhaps brought about by political upheavals in the late 20th century. Since Greek democracy was restored in 1975, after the military dictatorship, it is as though the population relish their country all the more.
+However, since joining the European Union (then the Common Market) in 1981, Greece has definitely moved closer to her western cousins, being one of the first wave of countries to join the Euro currency zone. The government in Athens has done well out of her union, receiving billions of dollars in aid, which has been used to upgrade vital road links throughout the country. Though the economy is still troubled, you are just as likely to see mobile phones as worry beads in a man’s hand, and the young wear the latest European fashions just as the Italians and French do. 
+Tourism also continues to flourish at the dawn of the 21st century. It is Greece’s major foreign currency earner with 11 million people visiting every year. Athens is an international melting pot with people of many nationalities treading the marble steps of the Acropolis to gaze at the birthplace of Western civilization. In 2004 the Olympic Games, first held in Greece during ancient times, will return to the capital giving Athens the chance to stand in the limelight again. The city offers some of the most fascinating and alluring archaeological remains in the world, yet those who visit in the 21st century find that the modern city works hard to live up to the past.
+```
+
+#### explanation:
+In this particular situation, this command searches through the Athens-Intro.txt file and prints out all of the lines that do not match the pattern of containing "this". This command could be helpful in seeing how much of the file doesn't contain a specific pattern that is used in a particular way (lowercase, uppercase, etc) in a file.
 
 ### source:
 https://www.geeksforgeeks.org/grep-command-in-unixlinux/
 
 ## `grep -i`:
-Ignores, case for matching
 
 ### example of `grep -i`:
 grep -i "UNix" geekfile.txt
+```
+grep -i "here" Algarve-History.txt 
+Little is known of the earliest Stone Age inhabitants of Europe’s southwestern extremity. The ancient Greeks called them the Cynetes (or Cunetes). Whatever their origins, their culture evolved under the pressure and influence of foreign forces. Among the many invading armies that settled here and contributed to nascent Portuguese culture were Phoenicians, who settled in the area around 1,000 b.c., followed by the Celts, Iberians, Greeks, and Carthaginians.
+The waters at the western extreme of the Algarve were all that was known to sailors. Once they were beyond Cabo de São Vicente, they faced the unknown, with no communications and no possibility of rescue if the voyage turned out badly. Yet out into the unknown they went; for the glory of God and country, and in search of personal fame and fortune. Their mission was made easier by the craft Algarve shipwrights had developed, a successor to the lumbering ships of the day: the caravel. It was light, fast, and very maneuverable. Any breeze was enough for a captain to steer it where he wanted to go. With the subsequent development of new navigational techniques, it was no longer necessary to stay within sight of land. Now the only limits to maritime exploration were man’s ingenuity and courage.
+According to tradition, the site of Prince Henry’s base was the Sagres peninsula (see page 22), though there is little there today to persuade you of this. The actual headquarters of the Navigation School may have been 40 km (25 miles) east, in Lagos (see page 26). This location had a port, shipyards, and was home to the prince in his role as governor of the Algarve.
+The sudden end of more than seven centuries of monarchy brought confusion and crisis to the country. Presidents and prime ministers were ushered into and out of office an unbelievable 45 times between 1910 and 1926, until a military revolution suspended Portugal’s problematic democracy. After six years of power, General Oscar Carmona appointed his finance minister, António de Oliveira Salazar, to be Prime Minister, a position he was to hold until 1968. Salazar’s repressive rule and austerity measures rid the Portuguese economy of debt, though poverty increased. Portugal remained neutral during World War II, and Salazar demonstrated his financial acumen by selling materials and supplies to both sides.
+```
+
+#### explanation:
+In this particular situation, this command searches through the Algarve-History.txt file and prints out all of the lines that match the pattern of containing "here", while ignoring case. This command could be helpful in seeing how much of the file doesn't contain a pattern that is used in any way in a file.
 
 ### example of `grep -i`:
-grep -i "UNix" geekfile.txt
+```
+grep -i "this" Athens-Intro.txt
+The most important city in the world during its heyday in the fifth and fourth centuries b.c., the people of Athens were highly sophisticated in their thoughts and actions, their tastes and fashions. This small city set on and around a dramatic hill of rock — the Acropolis — became the cradle of western civilization. From the public meetings held here the concepts of citizenship, democracy, and debate developed. Through their regard for learning, history and science were first codified and organized. The Athenian love of leisure allowed the development of numerous pursuits such as theater — imagine a world without tragedy or comedy (without the ancient Athenians, the much-loved TV soap opera might never have been possible). They also admired sporting prowess, inaugurating the Olympic Games where the best in the world would compete together simply for the glory of winning. 
+But there was a downside to this sudden re-emergence to center stage. People were drawn to the new capital like bees to a honey-pot, and throughout the 19th century the dispossessed of the economically floundering Aegean islands flocked here to find work. In the 1920s in the aftermath of WWII and the fall of the Ottoman Empire, Greece and Turkey agreed on a mass population swap, and millions of Greeks whose families had lived in Asia Minor (on the western Turkish coast) for generations, found themselves homeless in their spiritual homeland. Athens strained to accommodate many of them and a rash of building work saw the erection of the first faceless utilitarian suburbs that now surround the downtown area. Since buildings were kept low-rise in an attempt to make them earthquake proof, Athens began to spread outwards across the olive groves of nearby valleys. Not one of the world’s prettiest cities, its preponderance for concrete can give it a drab and shabby look even on the brightest of days.
+Perhaps this picture seems a little bleak, but there is one positive factor that eases the concern about visiting Athens. It’s so easy to escape the city completely that one needn’t feel trapped by the urban environment. Within an hour of being at Syntagma Square outside the National Parliament building (the symbolic heart of the city), you could easily be sitting at the quayside of some small Greek island having a cooling drink, or enjoying the pine forest of the countryside of Attica — the region that surrounds the capital. 
+Athenians understand this. They are not daunted or downhearted by their surroundings, they enjoy their city, revelling in the opportunities it gives them. Every district has its own small squares with cafés, where people gather for a drink or meal — and Athenians love to eat out. You’ll be surprised at the wealth of good restaurants offering international cuisine, and how much post-modernist décor influences interior design in the smarter districts. Of course the Greek taverna hasn’t become extinct. Locals as much as visitors enjoy the fresh and delicious cuisine that’s been served in Greece for centuries. Greek theater is thriving at new auditoria such as the Megaron complex, or at the open-air theaters on Lycabettus Hill. The annual Athens Festival has a full program of music, dance, and poetry with a rich historical legacy. Sports are still avidly followed, though today it’s more likely to be football, not a discus throw, that excites the emotions. Powerboat racing out on the waters of the Saronic Gulf also raises the adrenalin of the wealthy.
+```
+
+#### explanation:
+In this particular situation, this command searches through the Athens-Intro.txt file and prints out all of the lines that match the pattern of containing "this", while ignoring case. This command could be helpful in seeing how much of the file doesn't contain a pattern that is used in any way in a file.
 
 ### source:
 https://www.geeksforgeeks.org/grep-command-in-unixlinux/
 
 ## `grep -n`:
-Display the matched lines and their line numbers.
+
+### example of `grep -n`:
+```
+grep -n "here" Algarve-History.txt 
+6:Little is known of the earliest Stone Age inhabitants of Europe’s southwestern extremity. The ancient Greeks called them the Cynetes (or Cunetes). Whatever their origins, their culture evolved under the pressure and influence of foreign forces. Among the many invading armies that settled here and contributed to nascent Portuguese culture were Phoenicians, who settled in the area around 1,000 b.c., followed by the Celts, Iberians, Greeks, and Carthaginians.
+18:The waters at the western extreme of the Algarve were all that was known to sailors. Once they were beyond Cabo de São Vicente, they faced the unknown, with no communications and no possibility of rescue if the voyage turned out badly. Yet out into the unknown they went; for the glory of God and country, and in search of personal fame and fortune. Their mission was made easier by the craft Algarve shipwrights had developed, a successor to the lumbering ships of the day: the caravel. It was light, fast, and very maneuverable. Any breeze was enough for a captain to steer it where he wanted to go. With the subsequent development of new navigational techniques, it was no longer necessary to stay within sight of land. Now the only limits to maritime exploration were man’s ingenuity and courage.
+19:According to tradition, the site of Prince Henry’s base was the Sagres peninsula (see page 22), though there is little there today to persuade you of this. The actual headquarters of the Navigation School may have been 40 km (25 miles) east, in Lagos (see page 26). This location had a port, shipyards, and was home to the prince in his role as governor of the Algarve.
+39:The sudden end of more than seven centuries of monarchy brought confusion and crisis to the country. Presidents and prime ministers were ushered into and out of office an unbelievable 45 times between 1910 and 1926, until a military revolution suspended Portugal’s problematic democracy. After six years of power, General Oscar Carmona appointed his finance minister, António de Oliveira Salazar, to be Prime Minister, a position he was to hold until 1968. Salazar’s repressive rule and austerity measures rid the Portuguese economy of debt, though poverty increased. Portugal remained neutral during World War II, and Salazar demonstrated his financial acumen by selling materials and supplies to both sides.
+```
+
+#### explanation:
+In this particular situation, this command searches through the Algarve-History.txt file and prints out all of the lines that match the pattern of containing "here", with each line labeled with its number. This command could be helpful in not only seeing how often a pattern shows up in a particular way (lowercase, uppercase, etc) in a file, but it also shows exactly where in the file it is located so that one can see how much "space" is in between each occurence of this pattern.
 
 ### example of `grep -n`:
 grep -n "unix" geekfile.txt
+```
+grep -n "this" Athens-Intro.txt
+12:But there was a downside to this sudden re-emergence to center stage. People were drawn to the new capital like bees to a honey-pot, and throughout the 19th century the dispossessed of the economically floundering Aegean islands flocked here to find work. In the 1920s in the aftermath of WWII and the fall of the Ottoman Empire, Greece and Turkey agreed on a mass population swap, and millions of Greeks whose families had lived in Asia Minor (on the western Turkish coast) for generations, found themselves homeless in their spiritual homeland. Athens strained to accommodate many of them and a rash of building work saw the erection of the first faceless utilitarian suburbs that now surround the downtown area. Since buildings were kept low-rise in an attempt to make them earthquake proof, Athens began to spread outwards across the olive groves of nearby valleys. Not one of the world’s prettiest cities, its preponderance for concrete can give it a drab and shabby look even on the brightest of days.
+14:Perhaps this picture seems a little bleak, but there is one positive factor that eases the concern about visiting Athens. It’s so easy to escape the city completely that one needn’t feel trapped by the urban environment. Within an hour of being at Syntagma Square outside the National Parliament building (the symbolic heart of the city), you could easily be sitting at the quayside of some small Greek island having a cooling drink, or enjoying the pine forest of the countryside of Attica — the region that surrounds the capital. 
+15:Athenians understand this. They are not daunted or downhearted by their surroundings, they enjoy their city, revelling in the opportunities it gives them. Every district has its own small squares with cafés, where people gather for a drink or meal — and Athenians love to eat out. You’ll be surprised at the wealth of good restaurants offering international cuisine, and how much post-modernist décor influences interior design in the smarter districts. Of course the Greek taverna hasn’t become extinct. Locals as much as visitors enjoy the fresh and delicious cuisine that’s been served in Greece for centuries. Greek theater is thriving at new auditoria such as the Megaron complex, or at the open-air theaters on Lycabettus Hill. The annual Athens Festival has a full program of music, dance, and poetry with a rich historical legacy. Sports are still avidly followed, though today it’s more likely to be football, not a discus throw, that excites the emotions. Powerboat racing out on the waters of the Saronic Gulf also raises the adrenalin of the wealthy.
+```
 
-### example of `grep -n`:
-grep -n "unix" geekfile.txt
+#### explanation:
+In this particular situation, this command searches through the Athens-Intro.txt file and prints out all of the lines that match the pattern of containing "this", with each line labeled with its number. This command could be helpful in not only seeing how often a pattern shows up in a particular way (lowercase, uppercase, etc) in a file, but it also shows exactly where in the file it is located so that one can see how much "space" is in between each occurence of this pattern.
 
 ### source:
 https://www.geeksforgeeks.org/grep-command-in-unixlinux/
