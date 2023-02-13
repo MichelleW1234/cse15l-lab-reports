@@ -108,7 +108,6 @@ https://www.geeksforgeeks.org/grep-command-in-unixlinux/
 ## `grep -i`:
 
 ### example of `grep -i`:
-grep -i "UNix" geekfile.txt
 ```
 grep -i "here" Algarve-History.txt 
 Little is known of the earliest Stone Age inhabitants of Europe’s southwestern extremity. The ancient Greeks called them the Cynetes (or Cunetes). Whatever their origins, their culture evolved under the pressure and influence of foreign forces. Among the many invading armies that settled here and contributed to nascent Portuguese culture were Phoenicians, who settled in the area around 1,000 b.c., followed by the Celts, Iberians, Greeks, and Carthaginians.
@@ -150,7 +149,6 @@ grep -n "here" Algarve-History.txt
 In this particular situation, this command searches through the Algarve-History.txt file and prints out all of the lines that match the pattern of containing "here", with each line labeled with its number. This command could be helpful in not only seeing how often a pattern shows up in a particular way (lowercase, uppercase, etc) in a file, but it also shows exactly where in the file it is located so that one can see how much "space" is in between each occurence of this pattern.
 
 ### example of `grep -n`:
-grep -n "unix" geekfile.txt
 ```
 grep -n "this" Athens-Intro.txt
 12:But there was a downside to this sudden re-emergence to center stage. People were drawn to the new capital like bees to a honey-pot, and throughout the 19th century the dispossessed of the economically floundering Aegean islands flocked here to find work. In the 1920s in the aftermath of WWII and the fall of the Ottoman Empire, Greece and Turkey agreed on a mass population swap, and millions of Greeks whose families had lived in Asia Minor (on the western Turkish coast) for generations, found themselves homeless in their spiritual homeland. Athens strained to accommodate many of them and a rash of building work saw the erection of the first faceless utilitarian suburbs that now surround the downtown area. Since buildings were kept low-rise in an attempt to make them earthquake proof, Athens began to spread outwards across the olive groves of nearby valleys. Not one of the world’s prettiest cities, its preponderance for concrete can give it a drab and shabby look even on the brightest of days.
