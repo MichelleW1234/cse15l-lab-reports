@@ -1,4 +1,4 @@
-# Command-line options for the `grep` Command:
+# Command-line Options for the `grep` Command:
 
 ## `grep -o`: 
 
