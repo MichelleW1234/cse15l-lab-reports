@@ -117,7 +117,7 @@ The sudden end of more than seven centuries of monarchy brought confusion and cr
 ```
 
 #### explanation:
-In this particular situation, this command searches through the Algarve-History.txt file and prints out all of the lines that match the pattern of containing "here", while ignoring case. This command could be helpful in seeing how much of the file doesn't contain a pattern that is used in any way in a file.
+In this particular situation, this command searches through the Algarve-History.txt file and prints out all of the lines that match the pattern of containing "here", while ignoring case. This command could be helpful in seeing how much a pattern is used in any way in a file.
 
 ### example of `grep -i`:
 ```
@@ -129,7 +129,7 @@ Athenians understand this. They are not daunted or downhearted by their surround
 ```
 
 #### explanation:
-In this particular situation, this command searches through the Athens-Intro.txt file and prints out all of the lines that match the pattern of containing "this", while ignoring case. This command could be helpful in seeing how much of the file doesn't contain a pattern that is used in any way in a file.
+In this particular situation, this command searches through the Athens-Intro.txt file and prints out all of the lines that match the pattern of containing "this", while ignoring case. This command could be helpful in seeing how much a pattern is used in any way in a file.
 
 ### source:
 https://www.geeksforgeeks.org/grep-command-in-unixlinux/
