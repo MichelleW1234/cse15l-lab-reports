@@ -90,7 +90,7 @@ so I accessed and ran it in the same way.
 
 ### commands summary:
 - `git add .`
-- `git commit -m "Changed index2 to index1 in ListExamples.java`
+- `git commit -m "changed index2 to index1 in ListExamples.java"`
 - `git push`
  
   
