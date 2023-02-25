@@ -64,18 +64,6 @@ I first typed in the command `git clone`, and then pasted the SSH link of the la
 ![screenshot3](https://user-images.githubusercontent.com/122498397/221346185-7157452a-2470-4c76-a024-1c004df69b22.jpg)
 
 ### Keys pressed:
-- `<r>`
-- `<m>`
-- `<space>`
-- `<->`
-- `<r>`
-- `<f>`
-- `<space>`
-- `<l>`
-- `<a>`
-- `<b>`
-- `<7>`
-- `<enter>`
 - `<c>`
 - `<d>`
 - `<space>`
@@ -87,13 +75,28 @@ I first typed in the command `git clone`, and then pasted the SSH link of the la
 - `<cmd> + <v>`
 - `<enter>`
 - `<cmd> + <v>`
+- `<space>`
+- `<l>` + `<shift>`
+- `<i>`
+- `<s>`
+- `<t>`
+- `<e>` + `<shift>`
+- `<x>`
+- `<a>`
+- `<m>`
+- `<p>`
+- `<l>`
+- `<e>`
+- `<s>`
+- `<t>` + `<shift>`
+- `<e>`
+- `<s>`
+- `<t>`
+- `<s>`
 - `<enter>`
 
 ### commands summary:
-- `rm -rf lab7`
-- `cd lab7`
-- `javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java`
-- `java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore ListExamplesTests`
+I first entered the command `cd lab7` to get into the lab7 directory and access the `ListExamplesTest.java` file. I then pasted the command `javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java` after copying it from my notes by pressing `<cmd> + <v>` together, and pressed `<enter>` to go forth with compiling the tests. Finally, I pasted `java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore` after copying it from my notes by pressing `<cmd> + <v>` together, and completed the command by typing in the name of the tester file without the `.java` at the end (`ListExamplesTests`), which created the command `java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore ListExamplesTests`. I pressed `<enter>` to run the tester file. 
   
 ## 7. Edit the code file to fix the failing test
   
