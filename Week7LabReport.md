@@ -105,6 +105,28 @@ I first entered the command `cd lab7` to get into the lab7 directory and access 
 ![screenshot4](https://user-images.githubusercontent.com/122498397/221346201-ab6f350b-2083-4519-84e1-2a7fa7c8ec77.jpg)
 
 ### Keys pressed:
+- `<n>`
+- `<a>`
+- `<n>`
+- `<o>`
+- `<space>`
+- `<l>` + `<shift>`
+- `<i>`
+- `<s>`
+- `<t>`
+- `<e>` + `<shift>`
+- `<x>`
+- `<a>`
+- `<m>`
+- `<p>`
+- `<l>`
+- `<e>`
+- `<s>`
+- `<.>`
+- `<j>`
+- `<a>`
+- `<v>`
+- `<a>`
 - `<enter>`
 - `<down>` x 42
 - `<right>` x 12
@@ -115,9 +137,7 @@ I first entered the command `cd lab7` to get into the lab7 directory and access 
 - `<Ctrl>` + `<x>`
 
 ### commands summary:
-- `nano ListExamples.java`
-- `Ctrl + o`
-- `Ctrl + x`
+I first typed the command `nano ListExamples.java` in order to edit the  `ListExamples.java` to fix the issue that caused the tests in `ListExamplesTests.java` to fail, and then pressed `<enter>`. I found the issue (the last `index1` in the bottom-most while-loop should've been `index2`), and was able to get the the error and fix it by pressing `<down>` 42 times, `<right>` 12 times, `<backspace>` (to delete the `1` in `index1`), and `<2>` (to change it to `index2`). I then pressed `Ctrl and o` together and hit `<enter>` in order to save the change in `ListExamples.java`. Finally, I pressed `Ctrl + x` together to exit out of the file and return to the terminal. 
   
 ## 8. Run the tests, demonstrating that they now succeed
   
