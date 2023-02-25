@@ -233,12 +233,16 @@ I compiled the tests in `ListExamplesTests.java` once more using the compiling c
 - `<a>`
 - `<">`
 - `<enter>`
-
+- `<g>`
+- `<i>`
+- `<t>`
+- `<space>`
+- `<p>`
+- `<u>`
+- `<s>`
+- `<h>`
 - `<enter>`
 
 ### commands summary:
-- `git add .`
-- `git commit -m "changed index2 to index1 in ListExamples.java"`
-- `git push`
- 
+I first typed in the command `git add .` and pressed `<enter>` to add my edits in `ListExamples.java` to the lab7 repository on Github from my computer. I then typed the command `git commit -m "changed index2 to index1 in ListExamples.java"` and pressed `<enter>` to commit my edit on Github with the commit message "changed index2 to index1 in ListExamples.java". Finally, I typed in the command `git push` and hit `<enter>` to upload the content to the remote repository.
   
