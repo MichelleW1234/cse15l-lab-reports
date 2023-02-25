@@ -24,6 +24,8 @@ so I accessed and ran it in the same way.
 ## 4. Log into ieng6
 
 ### Screenshot:
+  
+![screenshot1](https://user-images.githubusercontent.com/122498397/221346142-69f347a0-6d32-437b-bdb4-53af398090b6.jpg)
 
 ### Keys pressed:
 
@@ -33,6 +35,8 @@ so I accessed and ran it in the same way.
 ## 5. Clone your fork of the repository from your Github account
 
 ### Screenshot:
+  
+![screenshot2](https://user-images.githubusercontent.com/122498397/221346153-5f94be46-437d-4056-8fd2-fa3eff27f6f0.jpg)
 
 ### Keys pressed:
 
@@ -42,6 +46,8 @@ so I accessed and ran it in the same way.
 ## 6. Run the tests, demonstrating that they fail
   
 ### Screenshot:
+  
+![screenshot3](https://user-images.githubusercontent.com/122498397/221346185-7157452a-2470-4c76-a024-1c004df69b22.jpg)
 
 ### Keys pressed:
 
@@ -53,6 +59,8 @@ so I accessed and ran it in the same way.
 ## 7. Edit the code file to fix the failing test
   
 ### Screenshot:
+  
+![screenshot4](https://user-images.githubusercontent.com/122498397/221346201-ab6f350b-2083-4519-84e1-2a7fa7c8ec77.jpg)
 
 ### Keys pressed:
 - `<down>` x 42
@@ -71,6 +79,8 @@ so I accessed and ran it in the same way.
 ## 8. Run the tests, demonstrating that they now succeed
   
 ### Screenshot:
+  
+![screenshot5](https://user-images.githubusercontent.com/122498397/221346217-857b592e-43de-474a-b9a8-f598fbcab611.jpg)
 
 ### Keys pressed:
 - `<up>` x 2
@@ -85,6 +95,8 @@ so I accessed and ran it in the same way.
 ## 9. Commit and push the resulting change to your Github account
   
 ### Screenshot:
+  
+![screenshot6](https://user-images.githubusercontent.com/122498397/221346231-666db3c5-f3ad-42b5-a3bc-33dc504e203e.jpg)
 
 ### Keys pressed:
 
