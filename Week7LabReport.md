@@ -28,10 +28,11 @@ so I accessed and ran it in the same way.
 ![screenshot1](https://user-images.githubusercontent.com/122498397/221346142-69f347a0-6d32-437b-bdb4-53af398090b6.jpg)
 
 ### Keys pressed:
+- `<Ctrl>` + `<v>`
 - `<enter>`
 
 ### commands summary:
-- `ssh cs15lwi23aov@ieng6.ucsd.edu`
+I pasted the command `ssh cs15lwi23aov@ieng6.ucsd.edu` into the terminal after copying it from my notes by pressing `<Ctrl>` and `<v>` together, and then pressed `<enter>` to complete the login process.
 
 ## 5. Clone your fork of the repository from your Github account
 
@@ -40,11 +41,21 @@ so I accessed and ran it in the same way.
 ![screenshot2](https://user-images.githubusercontent.com/122498397/221346153-5f94be46-437d-4056-8fd2-fa3eff27f6f0.jpg)
 
 ### Keys pressed:
+- `<g>`
+- `<i>`
+- `<t>`
+- `<space>`
+- `<c>`
+- `<l>`
+- `<o>`
+- `<n>`
+- `<e>`
+- `<space>`
 - `<cmd> + <v>`
 - `<enter>`
 
 ### commands summary:
-- `git clone git@github.com:MichelleW1234/lab7.git`
+I first typed in the command `git clone`, and then pasted the SSH link of the lab7 repository on Github by pressing `<Ctrl>` and `<v>` together, creating the command `git clone git@github.com:MichelleW1234/lab7.git`. I then pressed `<enter>` to clone the repository. 
   
 ## 6. Run the tests, demonstrating that they fail
   
@@ -53,6 +64,25 @@ so I accessed and ran it in the same way.
 ![screenshot3](https://user-images.githubusercontent.com/122498397/221346185-7157452a-2470-4c76-a024-1c004df69b22.jpg)
 
 ### Keys pressed:
+- `<r>`
+- `<m>`
+- `<space>`
+- `<->`
+- `<r>`
+- `<f>`
+- `<space>`
+- `<l>`
+- `<a>`
+- `<b>`
+- `<7>`
+- `<enter>`
+- `<c>`
+- `<d>`
+- `<space>`
+- `<l>`
+- `<a>`
+- `<b>`
+- `<7>`
 - `<enter>`
 - `<cmd> + <v>`
 - `<enter>`
@@ -60,6 +90,7 @@ so I accessed and ran it in the same way.
 - `<enter>`
 
 ### commands summary:
+- `rm -rf lab7`
 - `cd lab7`
 - `javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java`
 - `java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore ListExamplesTests`
