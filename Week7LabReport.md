@@ -55,13 +55,13 @@ so I accessed and ran it in the same way.
 ### Screenshot:
 
 ### Keys pressed:
-- <down> x 42
-- <right> x 12
-- <backspace>
-- <2>
-- <ctrl> + <o>
-- <enter>
-- <ctrl> + <x>
+- `<down>` x 42
+- `<right>` x 12
+- `<backspace>`
+- `<2>`
+- `<ctrl>` + `<o>`
+- `<enter>`
+- `<ctrl>` + `<x>`
 
 ### commands summary:
 - `nano ListExamples.java`
