@@ -73,8 +73,14 @@ so I accessed and ran it in the same way.
 ### Screenshot:
 
 ### Keys pressed:
+- `<up>` x 2
+- `<enter>`
+- `<up>` x 4
+- `<enter>`
 
 ### commands summary:
+- `javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java`
+- `java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore ListExamplesTests`
   
 ## 9. Commit and push the resulting change to your Github account
   
@@ -83,4 +89,8 @@ so I accessed and ran it in the same way.
 ### Keys pressed:
 
 ### commands summary:
+- `git add .`
+- `git commit -m "Changed index2 to index1 in ListExamples.java`
+- `git push`
+ 
   
