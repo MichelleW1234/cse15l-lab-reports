@@ -161,9 +161,79 @@ I compiled the tests in `ListExamplesTests.java` once more using the compiling c
 ![screenshot6](https://user-images.githubusercontent.com/122498397/221346231-666db3c5-f3ad-42b5-a3bc-33dc504e203e.jpg)
 
 ### Keys pressed:
-- 
+- `<g>`
+- `<i>`
+- `<t>`
+- `<space>`
+- `<a>`
+- `<d>`
+- `<d>`
+- `<space>`
+- `<.>`
 - `<enter>`
+- `<g>`
+- `<i>`
+- `<t>`
+- `<space>`
+- `<c>`
+- `<o>`
+- `<m>`
+- `<m>`
+- `<i>`
+- `<t>`
+- `<space>`
+- `<->`
+- `<m>`
+- `<space>`
+- `<">`
+- `<c>`
+- `<h>`
+- `<a>`
+- `<n>`
+- `<g>`
+- `<e>`
+- `<d>`
+- `<space>`
+- `<i>`
+- `<n>`
+- `<d>`
+- `<e>`
+- `<x>`
+- `<1>`
+- `<space>`
+- `<t>`
+- `<o>`
+- `<space>`
+- `<i>`
+- `<n>`
+- `<d>`
+- `<e>`
+- `<x>`
+- `<2>`
+- `<space>`
+- `<i>`
+- `<n>`
+- `<space>`
+- `<l>` + `<shift>`
+- `<i>`
+- `<s>`
+- `<t>`
+- `<e>` + `<shift>`
+- `<x>`
+- `<a>`
+- `<m>`
+- `<p>`
+- `<l>`
+- `<e>`
+- `<s>`
+- `<.>`
+- `<j>`
+- `<a>`
+- `<v>`
+- `<a>`
+- `<">`
 - `<enter>`
+
 - `<enter>`
 
 ### commands summary:
