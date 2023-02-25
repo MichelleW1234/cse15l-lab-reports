@@ -28,6 +28,7 @@ so I accessed and ran it in the same way.
 ![screenshot1](https://user-images.githubusercontent.com/122498397/221346142-69f347a0-6d32-437b-bdb4-53af398090b6.jpg)
 
 ### Keys pressed:
+- `<enter>`
 
 ### commands summary:
 - `ssh cs15lwi23aov@ieng6.ucsd.edu`
@@ -39,6 +40,8 @@ so I accessed and ran it in the same way.
 ![screenshot2](https://user-images.githubusercontent.com/122498397/221346153-5f94be46-437d-4056-8fd2-fa3eff27f6f0.jpg)
 
 ### Keys pressed:
+- `<cmd> + <v>`
+- `<enter>`
 
 ### commands summary:
 - `git clone git@github.com:MichelleW1234/lab7.git`
@@ -50,6 +53,11 @@ so I accessed and ran it in the same way.
 ![screenshot3](https://user-images.githubusercontent.com/122498397/221346185-7157452a-2470-4c76-a024-1c004df69b22.jpg)
 
 ### Keys pressed:
+- `<enter>`
+- `<cmd> + <v>`
+- `<enter>`
+- `<cmd> + <v>`
+- `<enter>`
 
 ### commands summary:
 - `cd lab7`
@@ -63,6 +71,7 @@ so I accessed and ran it in the same way.
 ![screenshot4](https://user-images.githubusercontent.com/122498397/221346201-ab6f350b-2083-4519-84e1-2a7fa7c8ec77.jpg)
 
 ### Keys pressed:
+- `<enter>`
 - `<down>` x 42
 - `<right>` x 12
 - `<backspace>`
@@ -99,6 +108,9 @@ so I accessed and ran it in the same way.
 ![screenshot6](https://user-images.githubusercontent.com/122498397/221346231-666db3c5-f3ad-42b5-a3bc-33dc504e203e.jpg)
 
 ### Keys pressed:
+- `<enter>`
+- `<enter>`
+- `<enter>`
 
 ### commands summary:
 - `git add .`
