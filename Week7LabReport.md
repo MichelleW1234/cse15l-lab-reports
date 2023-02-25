@@ -28,11 +28,11 @@ so I accessed and ran it in the same way.
 ![screenshot1](https://user-images.githubusercontent.com/122498397/221346142-69f347a0-6d32-437b-bdb4-53af398090b6.jpg)
 
 ### Keys pressed:
-- `<Ctrl>` + `<v>`
+- `<cmd>` + `<v>`
 - `<enter>`
 
 ### commands summary:
-I pasted the command `ssh cs15lwi23aov@ieng6.ucsd.edu` into the terminal after copying it from my notes by pressing `<Ctrl>` and `<v>` together, and then pressed `<enter>` to complete the login process.
+I pasted the command `ssh cs15lwi23aov@ieng6.ucsd.edu` into the terminal after copying it from my notes by pressing `<cmd>` and `<v>` together, and then pressed `<enter>` to complete the login process.
 
 ## 5. Clone your fork of the repository from your Github account
 
@@ -55,7 +55,7 @@ I pasted the command `ssh cs15lwi23aov@ieng6.ucsd.edu` into the terminal after c
 - `<enter>`
 
 ### commands summary:
-I first typed in the command `git clone`, and then pasted the SSH link of the lab7 repository on Github by pressing `<Ctrl>` and `<v>` together, creating the command `git clone git@github.com:MichelleW1234/lab7.git`. I then pressed `<enter>` to clone the repository. 
+I first typed in the command `git clone`, and then pasted the SSH link of the lab7 repository on Github by pressing `<cmd>` and `<v>` together, creating the command `git clone git@github.com:MichelleW1234/lab7.git`. I then pressed `<enter>` to clone the repository. 
   
 ## 6. Run the tests, demonstrating that they fail
   
@@ -96,7 +96,7 @@ I first typed in the command `git clone`, and then pasted the SSH link of the la
 - `<enter>`
 
 ### commands summary:
-I first entered the command `cd lab7` to get into the lab7 directory and access the `ListExamplesTest.java` file. I then pasted the command `javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java` after copying it from my notes by pressing `<cmd> + <v>` together, and pressed `<enter>` to go forth with compiling the tests. Finally, I pasted `java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore` after copying it from my notes by pressing `<cmd> + <v>` together, and completed the command by typing in the name of the tester file without the `.java` at the end (`ListExamplesTests`), which created the command `java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore ListExamplesTests`. I pressed `<enter>` to run the tester file. 
+I first entered the command `cd lab7` to get into the lab7 directory and access the `ListExamplesTest.java` file. I then pasted the command `javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java` after copying it from my notes by pressing `<cmd> and <v>` together, and pressed `<enter>` to go forth with compiling the tests. Finally, I pasted `java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore` after copying it from my notes by pressing `<cmd> and <v>` together, and completed the command by typing in the name of the tester file without the `.java` at the end (`ListExamplesTests`), which created the command `java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore ListExamplesTests`. I pressed `<enter>` to run the tester file. 
   
 ## 7. Edit the code file to fix the failing test
   
@@ -110,14 +110,14 @@ I first entered the command `cd lab7` to get into the lab7 directory and access 
 - `<right>` x 12
 - `<backspace>`
 - `<2>`
-- `<ctrl>` + `<o>`
+- `<Ctrl>` + `<o>`
 - `<enter>`
-- `<ctrl>` + `<x>`
+- `<Ctrl>` + `<x>`
 
 ### commands summary:
 - `nano ListExamples.java`
-- `ctrl + o`
-- `ctrl + x`
+- `Ctrl + o`
+- `Ctrl + x`
   
 ## 8. Run the tests, demonstrating that they now succeed
   
