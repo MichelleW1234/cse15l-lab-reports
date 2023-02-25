@@ -28,7 +28,8 @@ so I accessed and ran it in the same way.
 ### Keys pressed:
 
 ### commands summary:
-  
+- `ssh cs15lwi23aov@ieng6.ucsd.edu`
+
 ## 5. Clone your fork of the repository from your Github account
 
 ### Screenshot:
@@ -36,6 +37,7 @@ so I accessed and ran it in the same way.
 ### Keys pressed:
 
 ### commands summary:
+- `git clone git@github.com:MichelleW1234/lab7.git`
   
 ## 6. Run the tests, demonstrating that they fail
   
@@ -44,14 +46,27 @@ so I accessed and ran it in the same way.
 ### Keys pressed:
 
 ### commands summary:
+- `cd lab7`
+- `javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java`
+- `java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore TestListExamples.java`
   
 ## 7. Edit the code file to fix the failing test
   
 ### Screenshot:
 
 ### Keys pressed:
+- <down> x 42
+- <right> x 12
+- <backspace>
+- <2>
+- <ctrl> + <o>
+- <enter>
+- <ctrl> + <x>
 
 ### commands summary:
+- `nano ListExamples.java`
+- `ctrl + o`
+- `ctrl + x`
   
 ## 8. Run the tests, demonstrating that they now succeed
   
