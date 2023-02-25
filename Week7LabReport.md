@@ -17,6 +17,55 @@ so I used up arrow to access it.
 Then the java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore command was 4 up in the history, 
 so I accessed and ran it in the same way.
   
+# Steps:
+## 1. (Setup) Delete any existing forks of the repository you have on your account
+## 2. (Setup) Fork the repository
+## 3. (The real deal) Start the timer!
+## 4. Log into ieng6
+
+### Screenshot:
+
+### Keys pressed:
+
+### commands summary:
   
+## 5. Clone your fork of the repository from your Github account
+
+### Screenshot:
+
+### Keys pressed:
+
+### commands summary:
   
+## 6. Run the tests, demonstrating that they fail
+  
+### Screenshot:
+
+### Keys pressed:
+
+### commands summary:
+  
+## 7. Edit the code file to fix the failing test
+  
+### Screenshot:
+
+### Keys pressed:
+
+### commands summary:
+  
+## 8. Run the tests, demonstrating that they now succeed
+  
+### Screenshot:
+
+### Keys pressed:
+
+### commands summary:
+  
+## 9. Commit and push the resulting change to your Github account
+  
+### Screenshot:
+
+### Keys pressed:
+
+### commands summary:
   
