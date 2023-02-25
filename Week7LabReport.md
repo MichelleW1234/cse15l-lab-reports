@@ -48,7 +48,7 @@ so I accessed and ran it in the same way.
 ### commands summary:
 - `cd lab7`
 - `javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java`
-- `java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore TestListExamples.java`
+- `java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore ListExamplesTests.java`
   
 ## 7. Edit the code file to fix the failing test
   
