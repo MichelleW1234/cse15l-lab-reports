@@ -27,7 +27,7 @@ this
 In this particular situation, this command searches through the Algarve-History.txt file and prints out "this" on a seperate output line every time a line in its contents matches with the pattern of containing "this". This command could be helpful in figuring out how many times a specific pattern is used in a particular way (lowercase, uppercase, etc) in a file.
 
 ### source:
-https://www.geeksforgeeks.org/grep-command-in-unixlinux/
+The source used for [grep](https://www.geeksforgeeks.org/grep-command-in-unixlinux/).
 
 ## `grep -v`:
 
@@ -103,7 +103,7 @@ Tourism also continues to flourish at the dawn of the 21st century. It is Greece
 In this particular situation, this command searches through the Athens-Intro.txt file and prints out all of the lines that do not match the pattern of containing "this". This command could be helpful in seeing how much of the file doesn't contain a specific pattern that is used in a particular way (lowercase, uppercase, etc) in a file.
 
 ### source:
-https://www.geeksforgeeks.org/grep-command-in-unixlinux/
+The source used for [grep](https://www.geeksforgeeks.org/grep-command-in-unixlinux/).
 
 ## `grep -i`:
 
@@ -132,7 +132,7 @@ Athenians understand this. They are not daunted or downhearted by their surround
 In this particular situation, this command searches through the Athens-Intro.txt file and prints out all of the lines that match the pattern of containing "this", while ignoring case. This command could be helpful in seeing how much a pattern is used in any way in a file.
 
 ### source:
-https://www.geeksforgeeks.org/grep-command-in-unixlinux/
+The source used for [grep](https://www.geeksforgeeks.org/grep-command-in-unixlinux/).
 
 ## `grep -n`:
 
@@ -160,5 +160,5 @@ grep -n "this" Athens-Intro.txt
 In this particular situation, this command searches through the Athens-Intro.txt file and prints out all of the lines that match the pattern of containing "this", with each line labeled with its number. This command could be helpful in not only seeing how often a pattern shows up in a particular way (lowercase, uppercase, etc) in a file, but it also shows exactly where in the file it is located so that one can see how much "space" is in between each occurence of this pattern.
 
 ### source:
-https://www.geeksforgeeks.org/grep-command-in-unixlinux/
+The source used for [grep](https://www.geeksforgeeks.org/grep-command-in-unixlinux/).
 
