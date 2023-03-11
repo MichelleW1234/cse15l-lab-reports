@@ -6,7 +6,7 @@
 ### grade.sh used on student submission 1:
 
 #### repository link:
-The link to [list-methods-lab3](https://github.com/ucsd-cse15l-f22/list-methods-lab3)
+The link to [list-methods-lab3](https://github.com/MichelleW1234/list-methods-lab3.git)
 (expected to fail)
 
 #### terminal output:
@@ -15,7 +15,7 @@ The link to [list-methods-lab3](https://github.com/ucsd-cse15l-f22/list-methods-
 ### grade.sh used on student submission 2:
 
 #### repository link:
-The link to [list-methods-corrected](https://github.com/ucsd-cse15l-f22/list-methods-corrected)
+The link to [list-methods-corrected](https://github.com/MichelleW1234/list-methods-corrected.git)
 (expected to pass)
 
 #### terminal output:
@@ -24,7 +24,7 @@ The link to [list-methods-corrected](https://github.com/ucsd-cse15l-f22/list-met
 ### grade.sh used on student submission 3:
 
 #### repository link:
-The link to [list-methods-compile-error](https://github.com/ucsd-cse15l-f22/list-methods-compile-error)
+The link to [list-methods-compile-error](https://github.com/MichelleW1234/list-methods-compile-error.git)
 (expected to fail)
 
 #### terminal output:
@@ -33,7 +33,7 @@ The link to [list-methods-compile-error](https://github.com/ucsd-cse15l-f22/list
 ### grade.sh used on student submission 4:
 
 #### repository link:
-The link to [list-methods-signature](https://github.com/ucsd-cse15l-f22/list-methods-signature)
+The link to [list-methods-signature](https://github.com/MichelleW1234/list-methods-signature.git)
 (expected to fail)
 
 #### terminal output:
@@ -42,7 +42,7 @@ The link to [list-methods-signature](https://github.com/ucsd-cse15l-f22/list-met
 ### grade.sh used on student submission 5:
 
 #### repository link:
-The link to [list-methods-filename](https://github.com/ucsd-cse15l-f22/list-methods-filename)
+The link to [list-methods-filename](https://github.com/ucsd-cse15l-f22/list-methods-filename.git)
 (expected to fail)
 
 #### terminal output:
@@ -51,7 +51,7 @@ The link to [list-methods-filename](https://github.com/ucsd-cse15l-f22/list-meth
 ### grade.sh used on student submission 6:
 
 #### repository link:
-The link to [list-methods-nested](https://github.com/ucsd-cse15l-f22/list-methods-nested)
+The link to [list-methods-nested](https://github.com/ucsd-cse15l-f22/list-methods-nested.git)
 (expected to fail)
 
 #### terminal output:
@@ -60,7 +60,7 @@ The link to [list-methods-nested](https://github.com/ucsd-cse15l-f22/list-method
 ### grade.sh used on student submission 7 (challenge one):
 
 #### repository link:
-The link to [list-examples-subtle](https://github.com/ucsd-cse15l-f22/list-examples-subtle)
+The link to [list-examples-subtle](https://github.com/ucsd-cse15l-f22/list-examples-subtle.git)
 (expected to fail)
 
 #### terminal output:
