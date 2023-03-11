@@ -37,7 +37,7 @@ The link to [list-methods-signature](https://github.com/ucsd-cse15l-f22/list-met
 (expected to fail)
 
 #### terminal output:
-![9DB78C01-08CF-4BD7-98BF-917121D35440_4_5005_c](https://user-images.githubusercontent.com/122498397/224506645-4283264f-3f4e-4214-b63a-2d55a6e1c674.jpeg)
+![3C0D98C7-21D6-43F9-9DB0-D51B3C490697_4_5005_c](https://user-images.githubusercontent.com/122498397/224507672-b191e998-7a78-41e3-a2d0-b6ea4767e8a2.jpeg)
 
 ### grade.sh used on student submission 5:
 
