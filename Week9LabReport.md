@@ -10,7 +10,7 @@ The link to [list-methods-lab3](https://github.com/MichelleW1234/list-methods-la
 (expected to fail)
 
 #### terminal output:
-![F84BB2EC-D657-4A29-B91B-6FB76B579E0C_4_5005_c](https://user-images.githubusercontent.com/122498397/224506615-6703d69a-f738-4738-9e15-89da814e1075.jpeg)
+![EC83EFC4-B882-4B63-B8B6-CD0A18C85354_4_5005_c](https://user-images.githubusercontent.com/122498397/224508066-ec236191-dfa7-4dca-88f1-504dd81f99d6.jpeg)
 
 ### grade.sh used on student submission 2:
 
@@ -19,7 +19,7 @@ The link to [list-methods-corrected](https://github.com/MichelleW1234/list-metho
 (expected to pass)
 
 #### terminal output:
-![7603BF2E-3176-4E57-B871-403942F80D9D_4_5005_c](https://user-images.githubusercontent.com/122498397/224506630-d487359a-7fd5-42fa-9b8c-c4c395530b85.jpeg)
+![D70A152A-FEE6-439C-A9BD-84B365E1FC59_4_5005_c](https://user-images.githubusercontent.com/122498397/224508075-fb407008-8b0b-45cd-8353-19a6b1eb7627.jpeg)
 
 ### grade.sh used on student submission 3:
 
@@ -28,7 +28,7 @@ The link to [list-methods-compile-error](https://github.com/MichelleW1234/list-m
 (expected to fail)
 
 #### terminal output:
-![9271F767-BC59-4F51-BB13-4EE0D60B35FE_4_5005_c](https://user-images.githubusercontent.com/122498397/224506636-9df3d1bd-299d-4df1-b6c6-ed39941cbd4f.jpeg)
+![A4A7040B-1337-4C01-A036-4F2047979A42_4_5005_c](https://user-images.githubusercontent.com/122498397/224508085-b46fb24b-4896-4c18-a46c-13f6e51d1c28.jpeg)
 
 ### grade.sh used on student submission 4:
 
@@ -37,7 +37,7 @@ The link to [list-methods-signature](https://github.com/MichelleW1234/list-metho
 (expected to fail)
 
 #### terminal output:
-![3C0D98C7-21D6-43F9-9DB0-D51B3C490697_4_5005_c](https://user-images.githubusercontent.com/122498397/224507672-b191e998-7a78-41e3-a2d0-b6ea4767e8a2.jpeg)
+![A27E3A5F-F2F8-4572-8097-091DB0D9EE25_4_5005_c](https://user-images.githubusercontent.com/122498397/224508091-0aee71ae-5f7d-4943-a216-32786e9614d7.jpeg)
 
 ### grade.sh used on student submission 5:
 
@@ -46,7 +46,7 @@ The link to [list-methods-filename](https://github.com/ucsd-cse15l-f22/list-meth
 (expected to fail)
 
 #### terminal output:
-![16964A29-9002-4EA9-97FE-63516529B261_4_5005_c](https://user-images.githubusercontent.com/122498397/224506654-0af4fc9e-fbf5-4ac6-b990-7563aefe2c0c.jpeg)
+![796D1173-75BC-4F8B-B1AB-0E5E2370F0B4_4_5005_c](https://user-images.githubusercontent.com/122498397/224508097-380a8ce5-80a0-4c06-a6bd-41c7ae8b386f.jpeg)
 
 ### grade.sh used on student submission 6:
 
@@ -55,7 +55,7 @@ The link to [list-methods-nested](https://github.com/ucsd-cse15l-f22/list-method
 (expected to fail)
 
 #### terminal output:
-![2510E450-3097-4998-AE79-94A52009AF17_4_5005_c](https://user-images.githubusercontent.com/122498397/224506659-76e99928-1741-45a1-97dd-d048ab833a02.jpeg)
+![7BE44B54-D286-421A-B35B-C355AFDA7193_4_5005_c](https://user-images.githubusercontent.com/122498397/224508105-a02f2cc3-a90d-48bb-9423-7bdf420026f0.jpeg)
 
 ### grade.sh used on student submission 7 (challenge one):
 
@@ -64,5 +64,5 @@ The link to [list-examples-subtle](https://github.com/ucsd-cse15l-f22/list-examp
 (expected to fail)
 
 #### terminal output:
-![F379FE82-E83E-448D-9322-41B9B8F138BC_4_5005_c](https://user-images.githubusercontent.com/122498397/224506661-17dd360f-b275-4b26-92aa-2885db6c6e45.jpeg)
+![E4931116-8D4F-4911-8320-CA54236D5732_4_5005_c](https://user-images.githubusercontent.com/122498397/224508109-753bdb5e-0778-4dc4-9b7e-76dba9cb831d.jpeg)
 
