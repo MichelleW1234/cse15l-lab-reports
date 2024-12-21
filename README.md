@@ -1,1 +1,1 @@
-# Course name: Software Tools and Techniques Laboratory
+# cse15l-lab-reports
